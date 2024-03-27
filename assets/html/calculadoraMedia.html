@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Médias</title>
+    <link rel="shortcut icon" href="../img/calculadora.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/calculadoraMedia.css">
+</head>
+<body>
+    <article class="container">
+        <div class="container-title">
+            <h1>Média das Notas</h1>
+        </div>
+        <div class="adiciona-nota">
+            <label for="nota">Nota:</label>
+            <input type="text" name="nota" id="nota">
+            <button onclick="adicionarNotas()">&#9998; Adicionar</button>
+        </div>
+        <div id="containerNotas">
+
+        </div>
+        <div class="container-button"><button onclick="calcularMedia()">Calcular Média</button></div>
+        <div class="container-saida">
+            <p>A média é: <span id="resposta"></span></p>
+        </div>
+    </article>
+    <footer>
+        <p>Created by Leonardo Lindoso</p>
+        <p><a href="https://github.com/leolindosodev" target="_blank" rel="external">GitHub</a></p>
+        <p><a href="https://www.linkedin.com/in/leolindosodev/" target="_blank" rel="external"> LinkedIn </a></p>
+    </footer>
+    <script src="../js/calculadoraMedia.js"></script>
+</body>
+</html>
